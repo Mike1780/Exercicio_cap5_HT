@@ -1,0 +1,151 @@
+body {
+    background-color: #81DE95;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.container-imc {
+    margin-top: 50PX;
+    background-color: #F0E9E9;
+    font-size: 18px;
+    font-family: Sanchez;
+    justify-content: center;
+    border-radius: 8px;
+    width: 332px;
+    height: 50px;
+    
+
+}
+
+.container-dados {
+    background-color: #f0e9e9;
+    height: 516px;
+    width: 332px;
+    margin-top: 30px;
+    border-radius: 8px;
+    
+
+}
+
+.titulo {
+    text-align: center;
+
+
+}
+
+.genero {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.btn-genero {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.container-mulher {
+    background-color: #dcdcdc;
+    margin-top: 16px;
+    padding: 8px;
+    width: 100px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.container-homem {
+    background-color: #dcdcdc;
+    margin-top: 16px;
+    padding: 8px;
+    width: 100px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.container-form {
+    margin-top: 36px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.type {
+    margin-left: 9px;
+    font-size: 18px;
+
+}
+
+.age {
+    margin-right: 9px;
+
+}
+
+
+.container-form-imc {
+    margin-top: 36px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.input{
+margin-left: auto;
+margin-right: auto;
+}
+
+.input-altura{
+margin-right: 24px;    
+    
+    }
+
+.input-peso{
+margin-right: 13px; 
+        }
+
+.input-imc{
+margin-right: 68px; 
+                }        
+
+        
+           
+    
+
+
+.button {
+    margin-top: 10px;    
+    margin-bottom: 15px;
+    background-color: #32cd32;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    border-radius: 8px;
+    transition: 0.3s;
+    text-align: center;
+    }
+    
+    .button:hover{
+    cursor: pointer;
+    background-color: #7cfc00;
+    
+    }
+    
+    .txtbtn{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    }
+    
